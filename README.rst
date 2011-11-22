@@ -1,3 +1,15 @@
+How to a add submodule
+=======================
+go to git root dir
+
+and add (e.g for lusty)= git submodule add git://github.com/sjbach/lusty.git vim/bundle/lusty
+
+After you add submodule you need register it, using
+
+git submodule init
+
+(inside the submodule dir)
+
 Quick installation
 ==================
 Simply run this script to install and configure this vimrc in your `$HOME`
